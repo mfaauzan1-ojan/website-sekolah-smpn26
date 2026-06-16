@@ -1,3 +1,28 @@
+# School Website Project
+
+A school website developed during an internship program at SMPN 26 Pontianak.
+
+## Features
+- School profile
+- Vision and mission
+- News and announcements
+- Student admission information
+- Gallery
+- Google Maps integration
+
+## Technologies
+- Laravel
+- PHP
+- MySQL
+- Bootstrap
+
+## Installation
+1. Clone repository
+2. Run composer install
+3. Create .env file
+4. Import barang1.sql
+5. Run php artisan serve
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
