@@ -1,0 +1,408 @@
+a{
+    font-family: monste;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.teksvisi {
+    text-align: center;
+}
+
+.intro{
+    background-image: url('/images/sekolahsmpn26.png');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('/images/sekolahsmpn26.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin-bottom: 1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.intro .judul{
+    height: 27rem;
+    /* padding-left: 30%;
+    padding-top: 5%;
+    padding-right: 30%; */
+    justify-content: center;
+}
+.intro .judul h2{
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 3%;
+}
+.carddd{
+justify-content: center;
+justify-content: space-between;
+}
+.intro .judul p{
+  font-size: 80px;
+  text-align: left;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.intro h3{
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.info {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 110px;
+    padding-left: 10%;
+    margin-right: 50%;
+    text-align: left;
+    position: relative;
+    font-weight: bold;
+    font-size: large;
+}
+
+.info p{
+    text-align: justify; 
+    padding-right: 20%;
+}
+
+.info h1{
+    position: relative;
+    padding-top: 4%;
+    text-align: justify;
+    padding-right: 20%;
+    
+}
+.biginfo{
+    background-image: url('/images/bckgrnd1.png');
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/images/bckgrnd1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 1%;
+    
+}
+.visi{
+    justify-content: space-between;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+.vimi{
+    background-image: url('/images/vimi2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 1%;
+}
+.visi h1{
+    font-size: 50px;
+    color: #839e6f;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 rgb(255, 252, 252), 1px -1px 0 rgb(255, 255, 255), -1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255);
+}
+.tekvis p{
+    display: flex;
+    text-align: center;
+    line-height: 10px;
+    
+}
+.visi p{
+    justify-content:center;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.kontak {
+    justify-content: space-between;
+    text-align: center;
+    background-color: #fff;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    background-image: url('/images/bg.png');
+    background-size: cover;
+}
+
+.gmbrlokasi ul{
+    display: flex;;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 0%;
+    padding-right: 10%;
+    
+}
+
+.gmbrlokasi ul li a{
+    color: #140606;
+    text-decoration: none;
+}
+.gmbrlokasi ul li a:hover{
+    color: #686767;
+    
+}
+.lokasi {
+    width: 70%;
+    height: 350px;
+}
+.icon {
+    font-size: 25px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    justify-content: end;
+}
+
+.button {
+    display: inline-block;
+    background-color: #9dc183;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.info a.button:hover{
+    background-color:#839e6f;
+}
+
+html, body {
+    /* Membuat elemen HTML dan body mengambil seluruh tinggi layar */
+    height: auto;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    overflow: auto;
+  }
+
+  .listberita{
+    background-color: #9dc183;
+    justify-content: center;
+    padding: 1%;
+  }
+
+  .extrakulikuler {
+    margin-bottom: 1%;
+  }
+.organisasi {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-color: #EEE5D3;
+}
+.struktur {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    background-color: #EEE5D3;
+}
+.strukturr {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    background-color: #EEE5D3;
+    }
+  .gambar-layar {
+    /* Mengatur ukuran gambar agar menutupi seluruh layar */
+    /* background-attachment: fixed;
+    background-repeat: no-repeat; */
+   
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .beritasekolah{
+    font-size: 50px;
+    justify-content: space-between;
+    text-align: center;
+    color: #ffffff;
+    background-color: #839e6f;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 6%;
+    margin-bottom: 1%;
+  }
+
+  .beritasekolah h5{
+    font-style: italic;
+    color: #ffffff;
+    text-shadow: -1px -1px 0 #839e6f, 1px -1px 0 #839e6f, -1px 1px 0 #839e6f, 1px 1px 0 #839e6f;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: overline;
+    padding-bottom: 55%;
+  }
+  .card-text{
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .kartu{
+    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+    background-color: #839e6f;
+  }
+  .fasilitas{
+    padding-top: 5%;
+    text-align: center;
+    justify-content: center;
+    background-image: url('/images/bgwarna.png');
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+  }
+  .fasilitas h1{
+    color: #ffffff;
+  }
+  .fasilitas .cardd{
+    display: flex;
+    justify-content: center;
+  }
+  /* .row{
+    margin-left: 5%;
+  } */
+  .dataguru{
+    background-color: #839e6f;
+  }
+  .dataguru h1{
+    padding: 2%;
+    color: #ffffff;
+  }
+  .row{
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    display: flex;
+  }
+  .col-sm-3{
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 3%;
+    max-height: 380px;
+    width: 240px;
+    margin: 2%;
+  }
+  .card{
+    width: 10%;
+    border: 10%;
+    border-color: white;
+  }
+  .guru{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+  }
+  .allguru{
+    padding-top: 3%;
+    text-align: center;
+    background-color: #839e6f;
+    overflow: auto;
+  }
+  .allguru h2{
+    background-color: #9dc183;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .btn btn-primary a{
+    color: white;
+  }
+  
+  .infor{
+    padding-top: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: #140606;
+  }
+
+  
+/* crud */
+/* Mengatur tata letak kontainer */
+.container {
+    display: flex; 
+    border: 3px solid #839e6f;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Mengatur gambar */
+.gambarcrud {
+    width: auto; 
+    height: auto;
+    padding-bottom: 1%;
+}
+
+.gambaradmin {
+    display: flex;
+    justify-content: center;  
+}
+
+/* Mengatur teks */
+.tekscrud {
+  padding-top: 20px;
+    margin-left: 10px; 
+}
+
+.judulcrud {
+    text-align: center;
+    padding-top: 15px;
+    color: #839e6f;
+}
+
+.table, td, th {
+    border: none;
+    border-collapse: collapse;
+}
+
+
+
+/* slider */
+
+.lataratas{
+    background-color: #839e6f;
+    padding-top: 1%;
+    }
+
+a.nav-link2{
+    background: #839e6f;
+    border-radius: 20px;
+    margin-left: 10%;
+    padding: 10px 20px 10px 14px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+}
+
+a.nav-link2:hover{
+    background: #686767;
+    text-decoration: none;
+}
+
+.full-text {
+  display: none;
+}
