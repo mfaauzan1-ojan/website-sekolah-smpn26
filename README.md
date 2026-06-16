@@ -1,3 +1,6 @@
+## Homepage Screenshot
+
+![Beranda](Cuplikan layar 2026-06-16 192236.png)
 # School Website Project
 
 A school website developed during an internship program at SMPN 26 Pontianak.
